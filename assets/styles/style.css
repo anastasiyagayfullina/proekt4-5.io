@@ -1,0 +1,778 @@
+@import url(./fonts.css);
+*{
+    box-sizing: border-box;
+}
+* a{
+    text-decoration: none;
+}
+* input, select{
+    border: none;
+    outline: none;
+}
+body{
+    background-image: url(../img/фон2.png);
+    background-size: cover;
+    margin: 0;
+}
+header{
+    margin: 0 auto;
+    width: 1700px;
+}
+.container{
+    width: 1330px;
+    margin: 0 auto;
+}
+.section-main .container .navigation{
+    padding: 30px;
+}
+.profile i{
+    margin-top: 18px;
+    color: black;
+}
+.right{
+    width: 167px;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #f1f4f8;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-row .left{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-row .left p{
+    margin-left: 8px;
+    font-family: NeutralFace;
+    font-weight: 400;
+}
+.nav-row .center a{
+    font-family: ManropeS;
+    font-weight: 1000;
+    color: #07172e;
+    margin-left: 30px;
+    padding: 10px;
+}
+.nav-row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60px;
+
+
+}
+.title h1{
+    font-family: ManropeS;
+    font-weight: 800;
+    font-size: 55px;
+    margin: 0;
+    color: #07172e;;
+}
+.title h3{
+    font-family: Manrope-Regular;
+    font-weight: 600;
+    color: #3c4148;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.title .da{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-left: 40px;
+    flex-direction: column;
+}
+.da a{
+    padding: 18px 70px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+    font-family: ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.img-monohrome{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.img-monohrome img:nth-child(2){
+    margin-left: 30px;
+}
+.cards-cat{
+    display: flex;
+    justify-content: space-between;
+}
+.title-cat h2{
+    font-family: ManropeS;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 50px;
+    color: #07172e;
+}
+.section-kurs{
+    padding-top: 150px;
+}
+.section-kurs .title-cat{
+    display: flex;
+    justify-content: center;
+}
+.section-kurs .mini-item-row{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 330px 330px 330px;
+    width: 1250px;
+    gap: 80px;
+    margin: 50px 0 70px 0;
+}
+.section-kurs .container .kurs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.kurs a{
+    padding: 15px 70px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+    font-family: ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.mini-item-row .mini-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    width: 110%;
+    background-color: white;
+}
+.mini-item .icon img{
+    margin-top: 15px;
+}
+.mini-item h2{
+    font-family: ManropeS;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #07172e;
+}
+.section-kurs button{
+    margin-left: 37%;
+}
+
+.section-prob{
+    background-image: url(../img/серыйпрямоугольник.png);
+    background-size: cover;
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 200px;
+    height: 510px;
+}
+.collection{
+
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.collection h2{
+    font-family: ManropeS;
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0;
+    color: #07172e;
+    margin-top: 120px;
+}
+.collection p{
+    font-family: ManropeS;
+    font-weight: 550;
+    font-size: 14pt;
+    color: #3c4148;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.collection a{
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+    font-family: ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.title-new{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.title-new h2{
+    font-family: NeutralFace;
+    margin: 0;
+    font-size: 60pt;
+}
+
+.title-new h2:nth-child(2){
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    margin-top: 10px;
+}
+.section-cards{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.section-cards .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section-cards .onlinekurs{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+.green-zvezda{
+    display: flex;
+    flex-direction: column;
+}
+.green-zvezda h3{
+    font-family: ManropeS;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px;
+    text-transform: capitalize;
+    color: #07172e;
+}
+.green-zvezda h2{
+    font-family: ManropeS;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    color: #07172e;
+}
+.all{
+    margin-left: 50px;
+}
+.all .text p{
+    font-family: ManropeS;
+    font-weight: 550;
+    font-size: 14pt;
+    color: #3c4148;
+    
+    margin-top: 20px;
+}
+.star{
+    display: flex;
+    align-items: center;
+}
+.star img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.green-card{
+    display: flex;
+    margin-bottom: 150px;
+    margin-top: 100px;
+}
+.green-all-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.razmer{
+    display: flex;
+    justify-content: space-between;
+}
+.tsena-promo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-opisan{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.text-green p{
+    font-family: ManropeS;
+    font-weight: 500;
+}
+.rec-online p{
+    font-family: ManropeS;
+    font-size: 1rem;
+    color: #07172e;
+    font-weight: 700;
+}
+.price h1{
+    font-family: ManropeS;
+    font-size: 3.5rem;
+    color: #07172e;
+    font-weight: 700;
+}
+.price a{
+    padding: 20px 80px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family: ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.rectangle-2{
+    width: 273px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.online-course{
+    display: flex;
+    align-items: center;
+}
+.rec-online{
+    width: 580px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.star{
+    padding-right: 19px;
+}
+.star, .time, .kalend{
+    display: flex;
+    align-items: center;
+}
+.reit{
+    padding-left: 19px;
+}
+.time{
+    padding-left: 19px;
+}
+
+.kalend{
+    padding-right: 19px;
+}
+.time img{
+    padding-right: 5px;
+}
+.kalend img{
+    padding-right: 5px;
+}
+#tsena{
+    font-family: ManropeS;
+    font-weight: 600; 
+    font-size: 36pt;   
+    margin: 0;
+    margin-top: 15px;
+    color: #07172e;
+}
+.tsena-promo a{
+    padding: 15px 85px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+    font-family: ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.three .tr{
+    padding: 15px 40px;
+    border-radius: 10px;
+    background-color: white;
+
+    font-family:  ManropeS;
+    color: #07172e;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all ease 0.2s;
+
+}
+.three .tr:hover{
+    background-color: #3586ff;
+    color: white;
+    transition: all ease 0.2s;
+
+}
+.three{
+    width: 605px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-2{
+    font-family: ManropeS;
+    color: #3c4148;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.cart{
+    width: 300px;
+    height: 330px;
+    background-color: #f1f4f8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.cart img{
+    height: 230px;
+}
+.cart h3{
+    font-family: ManropeS;
+    color: #07172e;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.card-tr{
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart p{
+    font-family: ManropeS;
+    color: #8b9095;
+    font-weight: 400;
+    font-size: 0.8rem;
+    margin: -10px;
+}
+.text-cards{
+    width: 1200px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.trener{
+    padding-top: 70px;
+}
+
+.section-about-us{
+    width: 100%;
+    background-color: #f1f4f8;
+    padding-bottom: 120px;
+}
+.photo-about{
+    background-image: url(../img/женщинавчёрном.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    width: 680px;
+    border-radius: 40px;
+}
+.text-about{
+    margin-bottom: 100px;
+}
+.text-about h1{
+    font-family:  ManropeS;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #07172e;
+
+}
+.text-about p{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #3c4148;
+    padding-bottom: 80px;
+}
+.text-about a{
+    padding: 20px 70px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family:  ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.about{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-work{
+    background-color: #e6ebf0;
+    padding-bottom: 130px;
+}
+.work{
+    padding-top: 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.work h1{
+    font-family:  ManropeS;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #07172e;
+}
+.nom{
+    font-family:  ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    background-color: #3586ff;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+}
+
+.em h3{
+    font-family:  ManropeS;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #07172e;
+    padding-bottom: 5px;
+}
+.em .desc{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+}
+.nomer{
+    padding-top: 50px;
+    width: 1366px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-form{
+    background-color: #e6ebf0;
+    padding-bottom: 130px;
+}
+.plane{
+    width: 1160px;
+    height: 970px;
+    border-radius: 25px;
+    background: #f1f4f8;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-plane h1{
+    font-family:  ManropeS;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #07172e;
+
+    padding-bottom: 20px;
+}
+.text-plane p{
+    font-family: ManropeS;
+    font-weight: 500;
+    font-size: 20px;
+    color: #3c4148;
+    text-align: center;
+    margin-top: -30px;
+}
+.text-plane{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name, .phone, .e-mail label{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+
+
+}
+.forma-plane .name {
+    padding-right: 40px;
+}
+.win{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.name input{
+    background-color: #eef1f4;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 100px 20px 30px;
+    margin-top: 15px;
+}
+.phone input{
+    background-color: #eef1f4;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 100px 20px 30px;
+    padding-left: 60px;
+    margin-top: 15px;
+}
+.e-mail input{
+    background-color: #eef1f4;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    padding: 20px 470px 20px 30px;
+    margin-top: 15px;
+}
+.e-mail{
+    padding-top: 20px;
+}
+.purpose p{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+}
+.purpose label{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+}
+.sogl label{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #3c4148;
+
+}
+.sogl{
+    padding-bottom: 70px;
+}
+form a{
+    padding: 15px 70px;
+    border-radius: 10px;
+    background-color: #3586ff;
+    box-shadow: 4px 4px 35px 0px rgba(34, 60, 80, 0.14);;
+    outline: 2px solid #3586ff;
+    outline-offset: 4px;
+
+    font-family:  ManropeS;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.forma-plane{
+    padding-top: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.name, .phone, .e-mail{
+    display: flex;
+    flex-direction: column;
+}
+.vert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purpose p{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.radio label{
+    padding-right: 20px;
+}
+.radio{
+    padding-bottom: 20px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-footer{
+    background-color: #e8edf1;
+    padding-bottom: 50px;
+}
+.foot p{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #3c4148;
+}
+.foot a{
+    font-family:  ManropeS;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #3c4148;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-f{
+    width: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
